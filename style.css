@@ -1,0 +1,29 @@
+/*Colours*/
+.navbar {
+  list-style-type: none;
+  text-align: right;
+  display: block;
+}
+
+.navbar > li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar > li > a {
+  text-decoration: none;
+  /*help to remove underline*/
+}
+
+.search-container {
+  text-align: center;
+}
+
+.searchbar {
+  border-radius: 10px;
+  margin: 7px;
+  padding: 7px;
+  width: 500px;
+}
+
+/*# sourceMappingURL=style.css.map */
