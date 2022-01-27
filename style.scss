@@ -1,11 +1,13 @@
 /*Colours*/
-$primary-background-color: #FFFFFF;
+$advanced-margin: 20px;
 
 .navbar{
     list-style-type: none;
     // display: inline-block;
     text-align: right;
     display: block;
+    text-decoration: none;
+    color:black;
 }
 
 .navbar > li {
@@ -19,6 +21,7 @@ $primary-background-color: #FFFFFF;
 
 .search-container {
     text-align: center;
+    margin-top:150px;
 }
 
 .searchbar{
@@ -27,4 +30,32 @@ $primary-background-color: #FFFFFF;
 	margin: 7px;
 	padding: 7px;
 	width: 500px;
+}
+
+#nav {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 7px;
+    color: black;
+}
+
+h2{
+    color: #eb4034;
+    font-weight: normal;
+    margin: $advanced-margin;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+hr{
+    background-color:#FAFAFA
+}
+h4{
+    font-weight: normal;
+    padding-top: 25px;
+    margin: $advanced-margin;
+}
+.search-container-advanced{
+    text-align: left;
+    margin: $advanced-margin;
 }
